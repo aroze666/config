@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/aroze/Code/Python/156Project/main.py'
+let g:netrw_dirhist_0='/home/aroze/.config'
+let g:netrw_dirhist_9='/home/aroze/.config/desmume'
+let g:netrw_dirhist_8='/home/aroze/.config/picom'
+let g:netrw_dirhist_7='/home/aroze/.config/neofetch'
+let g:netrw_dirhist_6='/home/aroze/notes/math171/lec6'
+let g:netrw_dirhist_5='/home/aroze/.config/neofetch'
+let g:netrw_dirhist_4='/home/aroze/.config/picom'
+let g:netrw_dirhist_3='/home/aroze/.config/neofetch'
+let g:netrw_dirhist_2='/home/aroze/notes/math171'
