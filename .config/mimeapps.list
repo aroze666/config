@@ -1,0 +1,9 @@
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+text/x-c=nvim.desktop
+application/json=nvim.desktop
+application/javascript=nvim.desktop
+text/plain=vim.desktop
+
+[Added Associations]
+text/plain=nvim.desktop;Alacritty.desktop;vim.desktop;firefox.desktop;

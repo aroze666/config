@@ -1,0 +1,38 @@
+super + Return
+  $TERMINAL
+
+super + e
+  pcmanfm
+
+super + d
+  rofi -show combi
+
+super + shift + s
+  scrot -s /home/aroze/Pictures/screenshots/'%Y-%m-%d %H:%M:%S $wx$h.png'
+
+super + s
+  scrot /home/aroze/Pictures/screenshots/'%Y-%m-%d %H:%M:%S $wx$h.png'
+
+super + shift +l
+  systemctl suspend
+
+super + l
+  sleep 1 && xset dpms force off
+
+XF86Audio{RaiseVolume,LowerVolume}
+  pactl set-sink-volume @DEFAULT_SINK@ {+2%, -2%}
+
+XF86AudioPlay
+  playerctl play-pause
+
+super + q
+  mpc toggle
+
+XF86AudioPrev
+  mpc prev
+
+XF86AudioNext
+  mpc next
+
+super + button2
+  /home/aroze/Apps/boomer/boomer
