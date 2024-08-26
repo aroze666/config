@@ -149,9 +149,11 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
-gaps inner 20
-#gaps horizontal 500
-#smart_gaps inverse_outer
+# gaps inner 10
+gaps vertical 10
+gaps horizontal 300
+
+# smart_gaps inverse_outer
 default_border pixel 2
 default_floating_border none
 
